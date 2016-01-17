@@ -252,9 +252,13 @@ h1, h2, h3, h4, h5, h6, a, button {
     background-color: #2A96B0;
 }
 
-#story, #portblogcont, #status, #usertesting, #ideation, #research, #team, #overview, #userflow, #mockups, #wireframes {
+#story, #status, #usertesting, #ideation, #research, #team, #overview, #userflow, #mockups, #wireframes {
     height: 100vh;
     width: 100vw;
+}
+
+#portblogcont {
+    height: 100vh;
 }
 
 #hellosection {
@@ -291,11 +295,15 @@ h1, h2, h3, h4, h5, h6, a, button {
 #portblogcont {
     margin: auto;
     display: block;
-    padding-left: 12.5%;
-    padding-right: 12.5%;
 }
 
+#homepage #portblogcont #portfolio {
+    padding-left: 12.5%;
+}
 
+#homepage #portblogcont #contact {
+    padding-right: 12.5%;
+}
 
 /* ZOOMING ON PICTURE */
 .img-zoom {
@@ -348,7 +356,7 @@ nav {
     padding-left: 3%;
     padding-top: 6px;
     font-size: 16px;
-    width: 97%;
+    width: 97vw;
     padding-bottom: 8px;
     position: relative;
 }
