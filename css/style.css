@@ -298,11 +298,11 @@ h1, h2, h3, h4, h5, h6, a, button {
 }
 
 #homepage #portblogcont #portfolio {
-    padding-left: 12.5%;
+    padding-left: 15%;
 }
 
 #homepage #portblogcont #contact {
-    padding-right: 12.5%;
+    padding-right: 15%;
 }
 
 /* ZOOMING ON PICTURE */
@@ -677,4 +677,14 @@ nav li a:hover {
 #ubi #status {
     background: url("../img/ubiresults.jpeg") 50% 50% repeat scroll;
     background-size: cover; 
+}
+
+@-moz-document url-prefix() {
+    .img-zoom {
+        max-width: 100%;
+    }
+
+    #homepage #portblogcont .valign {
+        top: auto;
+    }
 }
